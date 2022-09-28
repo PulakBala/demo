@@ -6,6 +6,7 @@ const Country = (props) => {
     console.log(props)
     return (
         <div className='country'>
+            <p>Country Find</p>
             <h2>Country Name: {name.common}</h2>
             <h3>Population: {population}</h3>
             <img src={flags.png} alt="" />
